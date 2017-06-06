@@ -1,0 +1,29 @@
+{
+  "name": "fordpass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeepthiNalla123/FordPass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeepthiNalla123/FordPass/issues"
+  },
+  "homepage": "https://github.com/DeepthiNalla123/FordPass#readme",
+  "devDependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "multer": "^1.3.0"
+  },
+  "dependencies": {
+    "angular": "^1.6.4",
+    "jquery": "^3.2.1"
+  }
+}
