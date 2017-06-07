@@ -14,6 +14,7 @@
         .navbar-default {
             color: #fff;
             background-color: #fff;
+            border-bottom: 2px solid #9b9b9b;
         }
 
         .navbar-header .navbar-brand {
@@ -39,6 +40,28 @@
             padding: 10px 10px;
             font-size: 15px;
             background-color: #2d96cd;
+            color: #fff;
+        }
+
+        .input-group {
+            padding: 20px 100px;
+        }
+
+        .input-group-btn>button {
+            padding: 9px 45px;
+            font-size: 17px;
+        }
+
+        #searchBox {
+            padding: 21px 5px;
+            border-left: none;
+            box-shadow: none;
+            font-size:17px;
+        }
+
+        .input-group-addon {
+            background-color: transparent;
+            font-size: 20px;
         }
     </style>
 </head>
@@ -66,7 +89,13 @@
                 </ul>
             </nav>
         </div>
-        <div class="row"></div>
+        <div class="row input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+            <input type="text" id="searchBox" class="form-control" name="search" placeholder="Search for Repair Order Number,Name,email">
+            <span class="input-group-btn">
+            <button type="submit" class="btn">Search</button>
+            </span>
+        </div>
         <div class="row"></div>
         <div class="row"></div>
     </div>
